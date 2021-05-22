@@ -1,0 +1,26 @@
+{
+  "name": "web-speech-colors-recognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaszStusio/web-speech-colors-recognition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukaszStusio/web-speech-colors-recognition/issues"
+  },
+  "homepage": "https://github.com/LukaszStusio/web-speech-colors-recognition#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}

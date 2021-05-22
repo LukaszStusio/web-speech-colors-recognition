@@ -1,0 +1,58 @@
+:root {
+    --background-color: #dddad3;
+    --color-0: #000;
+}
+
+body {
+    background: var(--background-color);
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    padding: 2rem;
+}
+
+.color {
+    border: 2px solid rgb(48, 40, 40);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.dark {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes jump {
+  from {
+    transform: scale(2.5) rotate(-3deg);
+    box-shadow: var(--box-shadow);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.colors div.got {
+  text-decoration: line-through;
+  animation: jump 0.2s ease-in-out 2 alternate-reverse;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
